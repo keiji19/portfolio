@@ -100,12 +100,20 @@ footer small {
     background-attachment: fixed;
     background-size: cover;
 }
+
+#index #wrap {
+    background-color: transparent;
+    margin-top: 0;
+    padding: 0;
+}
+
 #index h1 {
     font-size: 100px;
     line-height: 1;
     color: #ffffff;
     font-family: 'Bitter', serif;
     margin-bottom: 50px;
+    border: none;
 }
 
 #index .content {
@@ -141,6 +149,7 @@ footer small {
     width: 960px;
     margin: 150px auto 0 auto;
     text-align: left;
+    background-color: transparent;
 }
 
 #about {
@@ -221,3 +230,41 @@ table {
     border-collapse: collapse;
 }
 
+/* Portfolio */
+#portfolio {
+    background-image: url(../images/bg-portfolio.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.main {
+    width: 700px;
+    margin: 0 10px;
+    float: left;
+}
+
+.sidebar {
+    width: 200px;
+    margin: 0 10px 0 30px;
+    float: right;
+    font-family: 'Bitter', serif;
+}
+
+.sidebar h2 {
+    margin-bottom: 10px;
+}
+
+.sidebar ul {
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+.sidebar ul a {
+    color: #333333;
+}
+
+a img:hover {
+    opacity: 0.8;
+}
